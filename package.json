@@ -1,0 +1,23 @@
+{
+  "name": "project1",
+  "version": "1.0.0",
+  "description": "Javascript practice",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kenmeagher/Snorlax.git"
+  },
+  "author": "Ken",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kenmeagher/Snorlax/issues"
+  },
+  "homepage": "https://github.com/kenmeagher/Snorlax#readme",
+  "dependencies": {
+    "express": "^4.16.3",
+    "sequelize": "^4.37.4"
+  }
+}
