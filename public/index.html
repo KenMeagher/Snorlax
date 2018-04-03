@@ -1,6 +1,15 @@
 <html>
-    <body>
-        <h1>Hi</h1>
+    <head>
+        <script src = "angular.min.js"></script>
+        <script src = "PersonController.js"></script>
+    </head>
+    <title>
+        PhoneBook
+    </title>
+    <body ng-app="PersonApp">
+        <div ng-controller="PersonController">
+        <h1>{{ greeting }}</h1>
+    </div>
     </body>
 
 
